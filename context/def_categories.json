@@ -1,0 +1,81 @@
+[
+  {"integration": "Telegram", "category": "Communication & Messaging"},
+  {"integration": "Discord", "category": "Communication & Messaging"},
+  {"integration": "Slack", "category": "Communication & Messaging"},
+  {"integration": "WhatsApp", "category": "Communication & Messaging"},
+  {"integration": "Gmail", "category": "Communication & Messaging"},
+  {"integration": "Email", "category": "Communication & Messaging"},
+  {"integration": "Twilio", "category": "Communication & Messaging"},
+  {"integration": "Teams", "category": "Communication & Messaging"},
+  {"integration": "Mattermost", "category": "Communication & Messaging"},
+  
+  {"integration": "Google Drive", "category": "Cloud Storage & File Management"},
+  {"integration": "Google Docs", "category": "Cloud Storage & File Management"},
+  {"integration": "Google Sheets", "category": "Cloud Storage & File Management"},
+  {"integration": "Dropbox", "category": "Cloud Storage & File Management"},
+  {"integration": "OneDrive", "category": "Cloud Storage & File Management"},
+  {"integration": "Box", "category": "Cloud Storage & File Management"},
+  
+  {"integration": "PostgreSQL", "category": "Data Processing & Analysis"},
+  {"integration": "MySQL", "category": "Data Processing & Analysis"},
+  {"integration": "MongoDB", "category": "Data Processing & Analysis"},
+  {"integration": "Redis", "category": "Data Processing & Analysis"},
+  {"integration": "Airtable", "category": "Data Processing & Analysis"},
+  {"integration": "Notion", "category": "Data Processing & Analysis"},
+  {"integration": "Supabase", "category": "Data Processing & Analysis"},
+  
+  {"integration": "OpenAI", "category": "AI Agent Development"},
+  {"integration": "Anthropic", "category": "AI Agent Development"},
+  {"integration": "Hugging Face", "category": "AI Agent Development"},
+  {"integration": "AWS Textract", "category": "AI Agent Development"},
+  {"integration": "Google Translate", "category": "AI Agent Development"},
+  
+  {"integration": "Jira", "category": "Project Management"},
+  {"integration": "GitHub", "category": "Project Management"},
+  {"integration": "GitLab", "category": "Project Management"},
+  {"integration": "Trello", "category": "Project Management"},
+  {"integration": "Asana", "category": "Project Management"},
+  {"integration": "Monday.com", "category": "Project Management"},
+  {"integration": "ClickUp", "category": "Project Management"},
+  
+  {"integration": "Shopify", "category": "E-commerce & Retail"},
+  {"integration": "Stripe", "category": "E-commerce & Retail"},
+  {"integration": "PayPal", "category": "E-commerce & Retail"},
+  {"integration": "WooCommerce", "category": "E-commerce & Retail"},
+  
+  {"integration": "LinkedIn", "category": "Social Media Management"},
+  {"integration": "Twitter", "category": "Social Media Management"},
+  {"integration": "Facebook", "category": "Social Media Management"},
+  {"integration": "Instagram", "category": "Social Media Management"},
+  
+  {"integration": "Mailchimp", "category": "Marketing & Advertising Automation"},
+  {"integration": "SendGrid", "category": "Marketing & Advertising Automation"},
+  {"integration": "ConvertKit", "category": "Marketing & Advertising Automation"},
+  {"integration": "Mailgun", "category": "Marketing & Advertising Automation"},
+  
+  {"integration": "QuickBooks", "category": "Financial & Accounting"},
+  {"integration": "Harvest", "category": "Financial & Accounting"},
+  {"integration": "Chargebee", "category": "Financial & Accounting"},
+  
+  {"integration": "Canva", "category": "Creative Design Automation"},
+  {"integration": "Figma", "category": "Creative Design Automation"},
+  {"integration": "Bannerbear", "category": "Creative Design Automation"},
+  
+  {"integration": "YouTube", "category": "Creative Content & Video Automation"},
+  {"integration": "Vimeo", "category": "Creative Content & Video Automation"},
+  {"integration": "Storyblok", "category": "Creative Content & Video Automation"},
+  
+  {"integration": "Docker", "category": "Technical Infrastructure & DevOps"},
+  {"integration": "Jenkins", "category": "Technical Infrastructure & DevOps"},
+  {"integration": "Travis CI", "category": "Technical Infrastructure & DevOps"},
+  {"integration": "Uptime Robot", "category": "Technical Infrastructure & DevOps"},
+  
+  {"integration": "Typeform", "category": "Data Processing & Analysis"},
+  {"integration": "Google Forms", "category": "Data Processing & Analysis"},
+  {"integration": "JotForm", "category": "Data Processing & Analysis"},
+  
+  {"integration": "Webhook", "category": "Web Scraping & Data Extraction"},
+  {"integration": "HTTP Request", "category": "Web Scraping & Data Extraction"},
+  {"integration": "RSS Feed", "category": "Web Scraping & Data Extraction"},
+  {"integration": "GraphQL", "category": "Web Scraping & Data Extraction"}
+]

@@ -2,12 +2,10 @@
   "name": "n8n-workflow-docs",
   "version": "1.0.0",
   "description": "N8N Workflow Documentation System - Python Implementation",
-  "main": "run.py",
   "scripts": {
-    "start": "python run.py",
-    "dev": "python run.py --dev"
-  },
-  "dependencies": {
+    "start": "echo 'Use: python run.py' && python run.py",
+    "dev": "echo 'Use: python run.py --dev' && python run.py --dev",
+    "install-python": "pip install -r requirements.txt"
   },
   "keywords": [
     "n8n",
@@ -16,5 +14,10 @@
     "automation"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
 }
