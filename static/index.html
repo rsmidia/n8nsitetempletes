@@ -467,8 +467,8 @@
                         <div class="workflow-actions">
                             <a href="/api/workflows/${encodeURIComponent(workflow.filename)}/download" 
                                class="action-btn" download>📥 Download</a>
-                            <button onclick="viewWorkflow('${workflow.filename}')" class="action-btn">👁️ View Details</button>
-                            <button onclick="viewDiagram('${workflow.filename}')" class="action-btn">📊 Diagram</button>
+                            <button onclick="viewWorkflow(${JSON.stringify(workflow.filename)})" class="action-btn">👁️ View Details</button>
+                            <button onclick="viewDiagram(${JSON.stringify(workflow.filename)})" class="action-btn">📊 Diagram</button>
                         </div>
                     </div>
                 `;
@@ -568,7 +568,13 @@
                         <body style="font-family: Arial, sans-serif; padding: 20px;">
                             <h1>Workflow Diagram</h1>
                             <div class="mermaid">${data.diagram}</div>
-                            <script>mermaid.initialize({startOnLoad:true});</script>
+                            <script>
+                                window.onload = function() {
+                                    if (typeof mermaid !== 'undefined') {
+                                        mermaid.initialize({startOnLoad:true});
+                                    }
+                                };
+                            </script>
                         </body>
                     </html>
                 `);
